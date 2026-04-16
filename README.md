@@ -20,6 +20,12 @@
 
 ## 提交作业
 
+使用这个命令 clone，你也不想拉下来 1.5 个 G 的史吧？
+
+```bash
+git clone --depth=1 --single-branch -b 2025 https://github.com/west2-online-reserve/collection-ai.git
+```
+
 阅读：[作业提交和答辩](https://github.com/ShaddockNH3/learn-AI/blob/main/tasks(2026)/commit-task/work-commit.md)
 
 请访问：[飞书 - 如何提交我的作业](https://west2-online.feishu.cn/wiki/Zvqow0CUxig3iWkWQgBcHp4AnHe)
