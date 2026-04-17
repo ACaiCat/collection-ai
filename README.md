@@ -20,14 +20,18 @@
 
 ## 提交作业
 
-使用这个命令 clone，你也不想拉下来 1.5 个 G 的史吧？
-
-```bash
-git clone --depth=1 --single-branch -b 2025 https://github.com/west2-online-reserve/collection-ai.git
-```
+只 fork 当前年份的分支，然后 git clone 自己的仓库，不要 fork 所有分支，你也不想拉下来 1.5 个 G 的史吧？
 
 阅读：[作业提交和答辩](https://github.com/ShaddockNH3/learn-AI/blob/main/tasks(2026)/commit-task/work-commit.md)
 
 请访问：[飞书 - 如何提交我的作业](https://west2-online.feishu.cn/wiki/Zvqow0CUxig3iWkWQgBcHp4AnHe)
 
 你需要为你自己的作业创建一个以你 Github 名字命名的文件夹，例如：`work0-1/ShaddockNH3`，并在该文件夹内提交你的作业和笔记。
+
+## 对整个仓库的整理
+
+对未来的维护者而言，如果你不像拉 1.5 个 G 的史，你可以使用下面这个 clone 命令来修改。
+
+```bash
+git clone --depth=1 --single-branch -b 2025 https://github.com/west2-online-reserve/collection-ai.git
+```
